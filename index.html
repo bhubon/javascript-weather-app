@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather app using api</title>
-
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -16,23 +15,29 @@
         <div class="shape shape-2"></div>
         <div class="container">
             <div class="search-container">
-                <input type="text" placeholder="Enter a  city name" id="city" value="narsingdi">
+                <input type="text" placeholder="Enter a  city name" id="city" value="Narsingdi">
                 <button id="search-btn" >Search</button>
             </div>
+            <h4 class="error"></h4>
             <div id="result">
                 <div class="result-wrapper">
                     <h2 class="weather-city">Narsingdi</h2>
-                    <h4 class="description">Cloudy</h4>
+                    <h4 class="description"></h4>
+                    <h4 class="description-details"></h4>
                     <img src="https://openweathermap.org/img/w/04d.png" alt="">
-                    <h1 class="temp">20.99 &#176;</h1>
+                    <h1 class="temp"></h1>
                     <div class="temp-details">
                         <div>
-                            <h4 class="details-title">min</h4>
-                            <h4 class="details-temp min">2099</h4>
+                            <h4 class="details-title">Min</h4>
+                            <h4 class="details-temp min"></h4>
                         </div>
                         <div>
-                            <h4 class="details-title">max</h4>
-                            <h4 class="details-temp max">2099</h4>
+                            <h4 class="details-title">Max</h4>
+                            <h4 class="details-temp max"></h4>
+                        </div>
+                        <div>
+                            <h4 class="details-title">Feels Like</h4>
+                            <h4 class="details-temp feels-like"></h4>
                         </div>
                     </div>
                 </div>
